@@ -8,8 +8,13 @@
 import UIKit
 
 public struct AlertAction {
-    public var title: String
-    public var action: ((UIAlertAction) -> Void)? = nil
+    var title: String
+    var action: ((UIAlertAction) -> Void)? = nil
+
+    public init(_ title: String, _ action: ((UIAlertAction) -> Void)? = nil) {
+        self.title = title
+        self.action = action
+    }
 }
 
 extension UIViewController {
