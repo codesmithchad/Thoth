@@ -1,12 +1,12 @@
 import UIKit
-public struct Thoth {
-    public private(set) var text = "Hello, World!"
 
-    public init() {
-    }
+public protocol Thoth {}
+
+extension Thoth where Self: Any {
+
 }
 
-extension UIView {
+extension UIView: Thoth {
     func addSubviews(_ subviews: UIView...) {
         for subview in subviews {
             addSubview(subview)
