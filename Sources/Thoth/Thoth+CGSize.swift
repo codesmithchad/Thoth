@@ -8,16 +8,16 @@
 import UIKit
 
 extension CGSize {
-    var ratio: CGFloat {
+    public var ratio: CGFloat {
         if width == 0 { return 0.0 }
         return height / width
     }
-    var ratioReverse: CGFloat {
+    public var ratioReverse: CGFloat {
         if height == 0 { return 0.0 }
         return width / height
     }
 
-    var scaled: Self {
+    public var scaled: Self {
         return Self.init(width: width * UIScreen.main.scale, height: height * UIScreen.main.scale)
     }
 }
