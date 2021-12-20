@@ -8,6 +8,8 @@
 import UIKit
 
 extension UIView: Thoth {
+
+    @inlinable
     public func addSubviews(_ subviews: UIView...) {
         for subview in subviews {
             addSubview(subview)
