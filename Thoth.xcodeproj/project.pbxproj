@@ -22,6 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		BFF71A7027706B4600FF352F /* Thoth+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A6F27706B4600FF352F /* Thoth+UIView.swift */; };
+		BFF71A7227706BFD00FF352F /* Thoth+CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A7127706BFD00FF352F /* Thoth+CGSize.swift */; };
 		OBJ_22 /* Thoth.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Thoth.swift */; };
 		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_40 /* ThothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ThothTests.swift */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		BFF71A6F27706B4600FF352F /* Thoth+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UIView.swift"; sourceTree = "<group>"; };
+		BFF71A7127706BFD00FF352F /* Thoth+CGSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+CGSize.swift"; sourceTree = "<group>"; };
 		OBJ_12 /* ThothTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThothTests.swift; sourceTree = "<group>"; };
 		OBJ_16 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			children = (
 				OBJ_9 /* Thoth.swift */,
 				BFF71A6F27706B4600FF352F /* Thoth+UIView.swift */,
+				BFF71A7127706BFD00FF352F /* Thoth+CGSize.swift */,
 			);
 			name = Thoth;
 			path = Sources/Thoth;
@@ -216,6 +219,7 @@
 			files = (
 				BFF71A7027706B4600FF352F /* Thoth+UIView.swift in Sources */,
 				OBJ_22 /* Thoth.swift in Sources */,
+				BFF71A7227706BFD00FF352F /* Thoth+CGSize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
