@@ -8,13 +8,8 @@
 import UIKit
 
 public struct AlertAction {
-    var title: String
-    var action: ((UIAlertAction) -> Void)? = nil
-
-    public init(_ title: String, _ action: ((UIAlertAction) -> Void)? = nil) {
-        self.title = title
-        self.action = action
-    }
+    public var title: String
+    public var action: ((UIAlertAction) -> Void)? = nil
 }
 
 extension UIViewController {
@@ -34,6 +29,8 @@ extension UIViewController {
             alert.addAction(action)
         }
 
-        present(alert, animated: true, completion: completion)
+        DispatchQueue.main.async { [weak self] in
+            self?.present(alert, animated: true, completion: completion)
+        }
     }
 }
