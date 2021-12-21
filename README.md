@@ -2,9 +2,6 @@
 
 v0.0.12
 
-## Thoth
-
-
 ## Thoth+Array
     * mutating func removeFirstIfExist() -> Array.Element?
     * mutating func removeLastIfExist() -> Array.Element?
@@ -21,7 +18,6 @@ v0.0.12
 
 ## Thoth+Collection
     * subscript(safe index: Index) -> Element?
-
 
 ## Thoth+Date
     * static var localDate: Date
