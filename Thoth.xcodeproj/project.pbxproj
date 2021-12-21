@@ -25,6 +25,32 @@
 		BFF71A7227706BFD00FF352F /* Thoth+CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A7127706BFD00FF352F /* Thoth+CGSize.swift */; };
 		BFF71A7627707FEA00FF352F /* Thoth+NSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A7527707FEA00FF352F /* Thoth+NSMutableAttributedString.swift */; };
 		BFF71A782770824000FF352F /* Thoth+UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A772770824000FF352F /* Thoth+UIAlertController.swift */; };
+		BFF71A7A27716B1100FF352F /* Thoth+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A7927716B1100FF352F /* Thoth+UIViewController.swift */; };
+		BFF71A7C27716B7200FF352F /* Thoth+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A7B27716B7200FF352F /* Thoth+UITextField.swift */; };
+		BFF71A7E27716E2100FF352F /* Thoth+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A7D27716E2100FF352F /* Thoth+UIImage.swift */; };
+		BFF71A8027716FB400FF352F /* Thoth+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A7F27716FB400FF352F /* Thoth+UIButton.swift */; };
+		BFF71A822771709800FF352F /* Thoth+UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A812771709800FF352F /* Thoth+UIScreen.swift */; };
+		BFF71A842771716400FF352F /* Thoth+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A832771716400FF352F /* Thoth+Debug.swift */; };
+		BFF71A86277172C100FF352F /* Thoth+UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A85277172C100FF352F /* Thoth+UIWindow.swift */; };
+		BFF71A88277173FD00FF352F /* Thoth+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A87277173FD00FF352F /* Thoth+Array.swift */; };
+		BFF71A8A2771743C00FF352F /* Thoth+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A892771743C00FF352F /* Thoth+Collection.swift */; };
+		BFF71A8C2771745800FF352F /* Thoth+Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A8B2771745800FF352F /* Thoth+Time.swift */; };
+		BFF71A8E2771755B00FF352F /* Thoth+UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A8D2771755B00FF352F /* Thoth+UIStackView.swift */; };
+		BFF71A90277175F300FF352F /* Thoth+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A8F277175F300FF352F /* Thoth+Int.swift */; };
+		BFF71A922771766500FF352F /* Thoth+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A912771766500FF352F /* Thoth+CALayer.swift */; };
+		BFF71A94277176E600FF352F /* Thoth+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A93277176E600FF352F /* Thoth+Dictionary.swift */; };
+		BFF71A962771784900FF352F /* Thoth+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A952771784900FF352F /* Thoth+UIColor.swift */; };
+		BFF71A9827717A7F00FF352F /* Thoth+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A9727717A7F00FF352F /* Thoth+URL.swift */; };
+		BFF71A9A27717AC800FF352F /* Thoth+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A9927717AC800FF352F /* Thoth+String.swift */; };
+		BFF71A9C27717E0B00FF352F /* Thoth+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A9B27717E0B00FF352F /* Thoth+Date.swift */; };
+		BFF71A9E2771802D00FF352F /* Thoth+WKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A9D2771802D00FF352F /* Thoth+WKWebView.swift */; };
+		BFF71AA02771817900FF352F /* Thoth+UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A9F2771817900FF352F /* Thoth+UINavigationBar.swift */; };
+		BFF71AA2277181C400FF352F /* Thoth+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71AA1277181C400FF352F /* Thoth+UIApplication.swift */; };
+		BFF71AA42771821500FF352F /* Thoth+UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71AA32771821500FF352F /* Thoth+UITextView.swift */; };
+		BFF71AA62771825000FF352F /* Thoth+UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71AA52771825000FF352F /* Thoth+UITableViewCell.swift */; };
+		BFF71AA8277182C200FF352F /* Thoth+PHAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71AA7277182C200FF352F /* Thoth+PHAsset.swift */; };
+		BFF71AAA2771832800FF352F /* Thoth+UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71AA92771832800FF352F /* Thoth+UIEdgeInsets.swift */; };
+		BFF71AAC2771835900FF352F /* Thoth+UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71AAB2771835900FF352F /* Thoth+UIFont.swift */; };
 		OBJ_22 /* Thoth.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Thoth.swift */; };
 		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_40 /* ThothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ThothTests.swift */; };
@@ -53,6 +79,32 @@
 		BFF71A7127706BFD00FF352F /* Thoth+CGSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+CGSize.swift"; sourceTree = "<group>"; };
 		BFF71A7527707FEA00FF352F /* Thoth+NSMutableAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+NSMutableAttributedString.swift"; sourceTree = "<group>"; };
 		BFF71A772770824000FF352F /* Thoth+UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UIAlertController.swift"; sourceTree = "<group>"; };
+		BFF71A7927716B1100FF352F /* Thoth+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UIViewController.swift"; sourceTree = "<group>"; };
+		BFF71A7B27716B7200FF352F /* Thoth+UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UITextField.swift"; sourceTree = "<group>"; };
+		BFF71A7D27716E2100FF352F /* Thoth+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UIImage.swift"; sourceTree = "<group>"; };
+		BFF71A7F27716FB400FF352F /* Thoth+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UIButton.swift"; sourceTree = "<group>"; };
+		BFF71A812771709800FF352F /* Thoth+UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UIScreen.swift"; sourceTree = "<group>"; };
+		BFF71A832771716400FF352F /* Thoth+Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+Debug.swift"; sourceTree = "<group>"; };
+		BFF71A85277172C100FF352F /* Thoth+UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UIWindow.swift"; sourceTree = "<group>"; };
+		BFF71A87277173FD00FF352F /* Thoth+Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+Array.swift"; sourceTree = "<group>"; };
+		BFF71A892771743C00FF352F /* Thoth+Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+Collection.swift"; sourceTree = "<group>"; };
+		BFF71A8B2771745800FF352F /* Thoth+Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+Time.swift"; sourceTree = "<group>"; };
+		BFF71A8D2771755B00FF352F /* Thoth+UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UIStackView.swift"; sourceTree = "<group>"; };
+		BFF71A8F277175F300FF352F /* Thoth+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+Int.swift"; sourceTree = "<group>"; };
+		BFF71A912771766500FF352F /* Thoth+CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+CALayer.swift"; sourceTree = "<group>"; };
+		BFF71A93277176E600FF352F /* Thoth+Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+Dictionary.swift"; sourceTree = "<group>"; };
+		BFF71A952771784900FF352F /* Thoth+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UIColor.swift"; sourceTree = "<group>"; };
+		BFF71A9727717A7F00FF352F /* Thoth+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+URL.swift"; sourceTree = "<group>"; };
+		BFF71A9927717AC800FF352F /* Thoth+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+String.swift"; sourceTree = "<group>"; };
+		BFF71A9B27717E0B00FF352F /* Thoth+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+Date.swift"; sourceTree = "<group>"; };
+		BFF71A9D2771802D00FF352F /* Thoth+WKWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+WKWebView.swift"; sourceTree = "<group>"; };
+		BFF71A9F2771817900FF352F /* Thoth+UINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UINavigationBar.swift"; sourceTree = "<group>"; };
+		BFF71AA1277181C400FF352F /* Thoth+UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UIApplication.swift"; sourceTree = "<group>"; };
+		BFF71AA32771821500FF352F /* Thoth+UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UITextView.swift"; sourceTree = "<group>"; };
+		BFF71AA52771825000FF352F /* Thoth+UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UITableViewCell.swift"; sourceTree = "<group>"; };
+		BFF71AA7277182C200FF352F /* Thoth+PHAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+PHAsset.swift"; sourceTree = "<group>"; };
+		BFF71AA92771832800FF352F /* Thoth+UIEdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UIEdgeInsets.swift"; sourceTree = "<group>"; };
+		BFF71AAB2771835900FF352F /* Thoth+UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UIFont.swift"; sourceTree = "<group>"; };
 		OBJ_12 /* ThothTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThothTests.swift; sourceTree = "<group>"; };
 		OBJ_16 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -129,10 +181,36 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* Thoth.swift */,
-				BFF71A6F27706B4600FF352F /* Thoth+UIView.swift */,
+				BFF71A87277173FD00FF352F /* Thoth+Array.swift */,
+				BFF71A912771766500FF352F /* Thoth+CALayer.swift */,
 				BFF71A7127706BFD00FF352F /* Thoth+CGSize.swift */,
+				BFF71A892771743C00FF352F /* Thoth+Collection.swift */,
+				BFF71A9B27717E0B00FF352F /* Thoth+Date.swift */,
+				BFF71A832771716400FF352F /* Thoth+Debug.swift */,
+				BFF71A93277176E600FF352F /* Thoth+Dictionary.swift */,
+				BFF71A8F277175F300FF352F /* Thoth+Int.swift */,
 				BFF71A7527707FEA00FF352F /* Thoth+NSMutableAttributedString.swift */,
+				BFF71AA7277182C200FF352F /* Thoth+PHAsset.swift */,
+				BFF71A9927717AC800FF352F /* Thoth+String.swift */,
+				BFF71A8B2771745800FF352F /* Thoth+Time.swift */,
 				BFF71A772770824000FF352F /* Thoth+UIAlertController.swift */,
+				BFF71AA1277181C400FF352F /* Thoth+UIApplication.swift */,
+				BFF71A7F27716FB400FF352F /* Thoth+UIButton.swift */,
+				BFF71A952771784900FF352F /* Thoth+UIColor.swift */,
+				BFF71AA92771832800FF352F /* Thoth+UIEdgeInsets.swift */,
+				BFF71AAB2771835900FF352F /* Thoth+UIFont.swift */,
+				BFF71A7D27716E2100FF352F /* Thoth+UIImage.swift */,
+				BFF71A9F2771817900FF352F /* Thoth+UINavigationBar.swift */,
+				BFF71A812771709800FF352F /* Thoth+UIScreen.swift */,
+				BFF71A8D2771755B00FF352F /* Thoth+UIStackView.swift */,
+				BFF71AA52771825000FF352F /* Thoth+UITableViewCell.swift */,
+				BFF71A7B27716B7200FF352F /* Thoth+UITextField.swift */,
+				BFF71AA32771821500FF352F /* Thoth+UITextView.swift */,
+				BFF71A6F27706B4600FF352F /* Thoth+UIView.swift */,
+				BFF71A7927716B1100FF352F /* Thoth+UIViewController.swift */,
+				BFF71A85277172C100FF352F /* Thoth+UIWindow.swift */,
+				BFF71A9727717A7F00FF352F /* Thoth+URL.swift */,
+				BFF71A9D2771802D00FF352F /* Thoth+WKWebView.swift */,
 			);
 			name = Thoth;
 			path = Sources/Thoth;
@@ -222,11 +300,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				BFF71A7A27716B1100FF352F /* Thoth+UIViewController.swift in Sources */,
+				BFF71A9E2771802D00FF352F /* Thoth+WKWebView.swift in Sources */,
+				BFF71A962771784900FF352F /* Thoth+UIColor.swift in Sources */,
+				BFF71A7E27716E2100FF352F /* Thoth+UIImage.swift in Sources */,
 				BFF71A7627707FEA00FF352F /* Thoth+NSMutableAttributedString.swift in Sources */,
+				BFF71A8E2771755B00FF352F /* Thoth+UIStackView.swift in Sources */,
+				BFF71AA2277181C400FF352F /* Thoth+UIApplication.swift in Sources */,
+				BFF71A9C27717E0B00FF352F /* Thoth+Date.swift in Sources */,
+				BFF71A86277172C100FF352F /* Thoth+UIWindow.swift in Sources */,
+				BFF71AA62771825000FF352F /* Thoth+UITableViewCell.swift in Sources */,
+				BFF71AA02771817900FF352F /* Thoth+UINavigationBar.swift in Sources */,
+				BFF71A8027716FB400FF352F /* Thoth+UIButton.swift in Sources */,
+				BFF71A88277173FD00FF352F /* Thoth+Array.swift in Sources */,
+				BFF71A9A27717AC800FF352F /* Thoth+String.swift in Sources */,
+				BFF71AAC2771835900FF352F /* Thoth+UIFont.swift in Sources */,
 				BFF71A782770824000FF352F /* Thoth+UIAlertController.swift in Sources */,
+				BFF71A8C2771745800FF352F /* Thoth+Time.swift in Sources */,
+				BFF71A8A2771743C00FF352F /* Thoth+Collection.swift in Sources */,
+				BFF71A822771709800FF352F /* Thoth+UIScreen.swift in Sources */,
+				BFF71A90277175F300FF352F /* Thoth+Int.swift in Sources */,
+				BFF71A9827717A7F00FF352F /* Thoth+URL.swift in Sources */,
+				BFF71AAA2771832800FF352F /* Thoth+UIEdgeInsets.swift in Sources */,
+				BFF71A94277176E600FF352F /* Thoth+Dictionary.swift in Sources */,
 				BFF71A7027706B4600FF352F /* Thoth+UIView.swift in Sources */,
+				BFF71AA8277182C200FF352F /* Thoth+PHAsset.swift in Sources */,
+				BFF71A922771766500FF352F /* Thoth+CALayer.swift in Sources */,
 				OBJ_22 /* Thoth.swift in Sources */,
 				BFF71A7227706BFD00FF352F /* Thoth+CGSize.swift in Sources */,
+				BFF71A842771716400FF352F /* Thoth+Debug.swift in Sources */,
+				BFF71AA42771821500FF352F /* Thoth+UITextView.swift in Sources */,
+				BFF71A7C27716B7200FF352F /* Thoth+UITextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
