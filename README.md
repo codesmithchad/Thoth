@@ -103,6 +103,9 @@ v0.0.12
 * func addArrangedSubviews(_ views: UIView...)
 * func removeArrangedSubviews()
 * func addBackground(color: UIColor)
+
+## Thoth+UITableView
+* func lastIndexpath() -> IndexPath
     
 ## Thoth+UITableViewCell
 * static var reuseIdentifier: String
