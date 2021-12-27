@@ -21,8 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		BFB7C0AD277996FD005778B0 /* Thoth+NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB7C0AC277996FD005778B0 /* Thoth+NSObject.swift */; };
 		398B6C3D2772C08100FD8F70 /* Thoth+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B6C3C2772C08100FD8F70 /* Thoth+UITableView.swift */; };
+		BFB7C0AD277996FD005778B0 /* Thoth+NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB7C0AC277996FD005778B0 /* Thoth+NSObject.swift */; };
 		BFF71A7027706B4600FF352F /* Thoth+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A6F27706B4600FF352F /* Thoth+UIView.swift */; };
 		BFF71A7227706BFD00FF352F /* Thoth+CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A7127706BFD00FF352F /* Thoth+CGSize.swift */; };
 		BFF71A7627707FEA00FF352F /* Thoth+NSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A7527707FEA00FF352F /* Thoth+NSMutableAttributedString.swift */; };
@@ -77,8 +77,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BFB7C0AC277996FD005778B0 /* Thoth+NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+NSObject.swift"; sourceTree = "<group>"; };
 		398B6C3C2772C08100FD8F70 /* Thoth+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Thoth+UITableView.swift"; path = "../../../../../Thoth+UITableView.swift"; sourceTree = "<group>"; };
+		BFB7C0AC277996FD005778B0 /* Thoth+NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+NSObject.swift"; sourceTree = "<group>"; };
 		BFF71A6F27706B4600FF352F /* Thoth+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UIView.swift"; sourceTree = "<group>"; };
 		BFF71A7127706BFD00FF352F /* Thoth+CGSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+CGSize.swift"; sourceTree = "<group>"; };
 		BFF71A7527707FEA00FF352F /* Thoth+NSMutableAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+NSMutableAttributedString.swift"; sourceTree = "<group>"; };
@@ -194,6 +194,7 @@
 				BFF71A93277176E600FF352F /* Thoth+Dictionary.swift */,
 				BFF71A8F277175F300FF352F /* Thoth+Int.swift */,
 				BFF71A7527707FEA00FF352F /* Thoth+NSMutableAttributedString.swift */,
+				BFB7C0AC277996FD005778B0 /* Thoth+NSObject.swift */,
 				BFF71AA7277182C200FF352F /* Thoth+PHAsset.swift */,
 				BFF71A9927717AC800FF352F /* Thoth+String.swift */,
 				BFF71A8B2771745800FF352F /* Thoth+Time.swift */,
@@ -215,7 +216,6 @@
 				BFF71A7927716B1100FF352F /* Thoth+UIViewController.swift */,
 				BFF71A85277172C100FF352F /* Thoth+UIWindow.swift */,
 				BFF71A9727717A7F00FF352F /* Thoth+URL.swift */,
-				BFB7C0AC277996FD005778B0 /* Thoth+NSObject.swift */,
 				BFF71A9D2771802D00FF352F /* Thoth+WKWebView.swift */,
 			);
 			name = Thoth;

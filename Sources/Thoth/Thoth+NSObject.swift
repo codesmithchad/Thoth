@@ -8,7 +8,7 @@
 import Foundation
 
 extension NSObject {
-    var className: String {
+    @inlinable public var className: String {
         String(describing: type(of: self))
     }
     
