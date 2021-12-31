@@ -9,6 +9,6 @@ import Foundation
 
 extension IndexPath {
     @inlinable public var zero: IndexPath {
-        IndexPath(item: 1, section: 0)
+        IndexPath(item: 0, section: 0)
     }
 }
