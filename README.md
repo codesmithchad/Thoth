@@ -37,6 +37,9 @@ v0.0.12
 ## Thoth+Dictionary
 * mutating func append(dict: [Key: Value])
 
+## Thoth+IndexPath
+* var zero: IndexPath
+
 ## Thoth+Int
 * func withCommas() -> String
 * func withCommas(limit: Int) -> String
@@ -105,7 +108,7 @@ v0.0.12
 * func addBackground(color: UIColor)
 
 ## Thoth+UITableView
-* func lastIndexpath() -> IndexPath
+* var lastIndexPath: IndexPath?
     
 ## Thoth+UITableViewCell
 * static var reuseIdentifier: String
