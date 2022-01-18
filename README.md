@@ -93,6 +93,7 @@ v0.0.12
 
 ## Thoth+UIImage
 * static func solidImage(_ color: UIColor, size: CGSize = .zero) -> UIImage?
+* public var noir: UIImage?
 
 ## Thoth+UINavigationBar
 * func setBackgroundColor(_ color: UIColor, titleColor: UIColor = .white)
