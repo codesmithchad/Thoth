@@ -40,6 +40,9 @@ v0.0.16
 ## Thoth+Dictionary
 * mutating func append(dict: [Key: Value])
 
+## Thoth+IndexPath
+* var zero: IndexPath
+
 ## Thoth+Int
 * func withCommas() -> String
 * func withCommas(limit: Int) -> String
@@ -93,6 +96,7 @@ v0.0.16
 
 ## Thoth+UIImage
 * static func solidImage(_ color: UIColor, size: CGSize = .zero) -> UIImage?
+* public var noir: UIImage?
 
 ## Thoth+UINavigationBar
 * func setBackgroundColor(_ color: UIColor, titleColor: UIColor = .white)
@@ -108,7 +112,7 @@ v0.0.16
 * func addBackground(color: UIColor)
 
 ## Thoth+UITableView
-* func lastIndexpath() -> IndexPath
+* var lastIndexPath: IndexPath?
     
 ## Thoth+UITableViewCell
 * static var reuseIdentifier: String
