@@ -1,6 +1,9 @@
 # Thoth
 
-v0.0.12
+v0.0.16
+
+## PaddedLabel
+* A UILabel that can append paddings.
 
 ## Thoth+Array
 * mutating func removeFirstIfExist() -> Array.Element?
