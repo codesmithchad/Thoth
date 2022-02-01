@@ -21,4 +21,11 @@ extension UITableView {
 
         return IndexPath(row: rows - 1, section: sections - 1)
     }
+    
+//     @inlinable
+//     public func lastIndexpath() -> IndexPath {
+//         let section = max(numberOfSections - 1, 0)
+//         let row = max(numberOfRows(inSection: section) - 1, 0)
+//         return IndexPath(row: row, section: section)
+//     }
 }
