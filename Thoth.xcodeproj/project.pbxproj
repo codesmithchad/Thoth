@@ -22,10 +22,12 @@
 
 /* Begin PBXBuildFile section */
 		39F57E112799C0940060FC1D /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F57E102799C0940060FC1D /* PaddedLabel.swift */; };
+		BF78A89527BCA7A00083AEC8 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78A89427BCA7A00083AEC8 /* PersistenceManager.swift */; };
+		BF78A89727BCA8370083AEC8 /* LoopableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78A89627BCA8370083AEC8 /* LoopableExtension.swift */; };
 		BFB7C0AD277996FD005778B0 /* Thoth+NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB7C0AC277996FD005778B0 /* Thoth+NSObject.swift */; };
 		BFF5C27A277ECB2C00D5260F /* Thoth+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5C279277ECB2C00D5260F /* Thoth+UITableView.swift */; };
 		BFF5C27C277ED48400D5260F /* Thoth+IndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5C27B277ED48400D5260F /* Thoth+IndexPath.swift */; };
-		BFF71A7027706B4600FF352F /* Thoth+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A6F27706B4600FF352F /* Thoth+UIView.swift */; };
+		BFF71A7027706B4600FF352F /* (null) in Sources */ = {isa = PBXBuildFile; };
 		BFF71A7227706BFD00FF352F /* Thoth+CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A7127706BFD00FF352F /* Thoth+CGSize.swift */; };
 		BFF71A7627707FEA00FF352F /* Thoth+NSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A7527707FEA00FF352F /* Thoth+NSMutableAttributedString.swift */; };
 		BFF71A782770824000FF352F /* Thoth+UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF71A772770824000FF352F /* Thoth+UIAlertController.swift */; };
@@ -79,8 +81,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		398B6C3C2772C08100FD8F70 /* Thoth+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Thoth+UITableView.swift"; path = "../../../../../Thoth+UITableView.swift"; sourceTree = "<group>"; };
 		39F57E102799C0940060FC1D /* PaddedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
+		BF78A89427BCA7A00083AEC8 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		BF78A89627BCA8370083AEC8 /* LoopableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopableExtension.swift; sourceTree = "<group>"; };
 		BFB7C0AC277996FD005778B0 /* Thoth+NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+NSObject.swift"; sourceTree = "<group>"; };
 		BFF5C279277ECB2C00D5260F /* Thoth+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+UITableView.swift"; sourceTree = "<group>"; };
 		BFF5C27B277ED48400D5260F /* Thoth+IndexPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thoth+IndexPath.swift"; sourceTree = "<group>"; };
@@ -189,6 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				39F57E102799C0940060FC1D /* PaddedLabel.swift */,
+				BF78A89427BCA7A00083AEC8 /* PersistenceManager.swift */,
+				BF78A89627BCA8370083AEC8 /* LoopableExtension.swift */,
 				OBJ_9 /* Thoth.swift */,
 				BFF71A87277173FD00FF352F /* Thoth+Array.swift */,
 				BFF71A912771766500FF352F /* Thoth+CALayer.swift */,
@@ -218,7 +223,6 @@
 				BFF71AA52771825000FF352F /* Thoth+UITableViewCell.swift */,
 				BFF71A7B27716B7200FF352F /* Thoth+UITextField.swift */,
 				BFF71AA32771821500FF352F /* Thoth+UITextView.swift */,
-				BFF71A6F27706B4600FF352F /* Thoth+UIView.swift */,
 				BFF71A7927716B1100FF352F /* Thoth+UIViewController.swift */,
 				BFF71A85277172C100FF352F /* Thoth+UIWindow.swift */,
 				BFF71A9727717A7F00FF352F /* Thoth+URL.swift */,
@@ -322,11 +326,13 @@
 				BFF71A9C27717E0B00FF352F /* Thoth+Date.swift in Sources */,
 				39F57E112799C0940060FC1D /* PaddedLabel.swift in Sources */,
 				BFF71A86277172C100FF352F /* Thoth+UIWindow.swift in Sources */,
+				BF78A89727BCA8370083AEC8 /* LoopableExtension.swift in Sources */,
 				BFF71AA62771825000FF352F /* Thoth+UITableViewCell.swift in Sources */,
 				BFF71AA02771817900FF352F /* Thoth+UINavigationBar.swift in Sources */,
 				BFF5C27C277ED48400D5260F /* Thoth+IndexPath.swift in Sources */,
 				BFF71A8027716FB400FF352F /* Thoth+UIButton.swift in Sources */,
 				BFF5C27A277ECB2C00D5260F /* Thoth+UITableView.swift in Sources */,
+				BF78A89527BCA7A00083AEC8 /* PersistenceManager.swift in Sources */,
 				BFF71A88277173FD00FF352F /* Thoth+Array.swift in Sources */,
 				BFF71A9A27717AC800FF352F /* Thoth+String.swift in Sources */,
 				BFF71AAC2771835900FF352F /* Thoth+UIFont.swift in Sources */,
@@ -338,7 +344,7 @@
 				BFF71A9827717A7F00FF352F /* Thoth+URL.swift in Sources */,
 				BFF71AAA2771832800FF352F /* Thoth+UIEdgeInsets.swift in Sources */,
 				BFF71A94277176E600FF352F /* Thoth+Dictionary.swift in Sources */,
-				BFF71A7027706B4600FF352F /* Thoth+UIView.swift in Sources */,
+				BFF71A7027706B4600FF352F /* (null) in Sources */,
 				BFF71AA8277182C200FF352F /* Thoth+PHAsset.swift in Sources */,
 				BFB7C0AD277996FD005778B0 /* Thoth+NSObject.swift in Sources */,
 				BFF71A922771766500FF352F /* Thoth+CALayer.swift in Sources */,
