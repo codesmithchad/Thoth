@@ -7,6 +7,9 @@ v0.0.16
 
 ## PersistenceManager
 * A manager of Core Data control
+    > Container name must be "ScribbleModel"
+    > entity name must be "Writing"
+    > will fix it later
 * func insert<T>(elements: T) -> Bool
 * func delete(object: NSManagedObject) -> Bool
 * func count<T: NSManagedObject>(request: NSFetchRequest<T>) -> Int?
