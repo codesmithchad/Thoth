@@ -29,10 +29,10 @@ public class PersistenceManager {
         persistenceContainer.viewContext
     }
     
-    public func fetch<T: NSManagedObject>(_ pageNo: Int? = nil) -> [T] {
+    public func fetch<T: NSManagedObject>(_ predict: String? = nil) -> [T] {
         let fetchRequest = NSFetchRequest<T>(entityName: PersistenceManager.entityName)
-        if let pageNo = pageNo {
-            fetchRequest.predicate = NSPredicate(format: "page=%d", pageNo)
+        if let predict = predict {
+            fetchRequest.predicate = NSPredicate(format: predict)
         }
         do {
             let fetchResult = try context.fetch(fetchRequest)
