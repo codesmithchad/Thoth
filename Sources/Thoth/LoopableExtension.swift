@@ -7,12 +7,12 @@
 
 import Foundation
 
-protocol Loopable {
+public protocol Loopable {
     func allProperties() throws -> [String: Any]
 }
 
 extension Loopable {
-    func allProperties() throws -> [String: Any] {
+    public func allProperties() throws -> [String: Any] {
         var result: [String: Any] = [:]
         let mirror = Mirror(reflecting: self)
 
