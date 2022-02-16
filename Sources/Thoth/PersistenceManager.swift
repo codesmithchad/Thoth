@@ -11,9 +11,9 @@ import CoreData
 @available(iOS 10.0, *)
 public class PersistenceManager {
     
-    static var shared: PersistenceManager = PersistenceManager()
-    static var containerName: String = "defaultContainerName"
-    static var entityName: String = "efaultEntityName"
+    static public var shared: PersistenceManager = PersistenceManager()
+    static public var containerName: String = "defaultContainerName"
+    static public var entityName: String = "efaultEntityName"
         
     private var persistenceContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: PersistenceManager.containerName)
