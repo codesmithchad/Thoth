@@ -29,7 +29,7 @@ public class PersistenceManager {
         persistenceContainer.viewContext
     }
     
-    func fetch<T: NSManagedObject>(_ pageNo: Int? = nil) -> [T] {
+    public func fetch<T: NSManagedObject>(_ pageNo: Int? = nil) -> [T] {
         let fetchRequest = NSFetchRequest<T>(entityName: PersistenceManager.entityName)
         if let pageNo = pageNo {
             fetchRequest.predicate = NSPredicate(format: "page=%d", pageNo)
@@ -44,7 +44,7 @@ public class PersistenceManager {
     }
     
     @discardableResult
-    func insert<T>(elements: T) -> Bool {
+    public func insert<T>(elements: T) -> Bool {
         
         guard let entity = NSEntityDescription.entity(forEntityName: PersistenceManager.entityName, in: context) else {
             return false
@@ -70,7 +70,7 @@ public class PersistenceManager {
     }
     
     @discardableResult
-    func delete(object: NSManagedObject) -> Bool {
+    public func delete(object: NSManagedObject) -> Bool {
         self.context.delete(object)
         do{
             try self.context.save()
@@ -81,7 +81,7 @@ public class PersistenceManager {
         }
     }
     
-    func count<T: NSManagedObject>(request: NSFetchRequest<T>) -> Int? {
+    public func count<T: NSManagedObject>(request: NSFetchRequest<T>) -> Int? {
         do {
             let count = try self.context.count(for: request)
             return count
