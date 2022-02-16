@@ -5,6 +5,15 @@ v0.0.16
 ## PaddedLabel
 * A UILabel that can append paddings.
 
+## PersistenceManager
+* A manager of Core Data control
+* func insert<T>(elements: T) -> Bool
+* func delete(object: NSManagedObject) -> Bool
+* func count<T: NSManagedObject>(request: NSFetchRequest<T>) -> Int?
+
+## LoopableExtension
+* A Loopable extension for getting keys of `struct`. 
+
 ## Thoth+Array
 * mutating func removeFirstIfExist() -> Array.Element?
 * mutating func removeLastIfExist() -> Array.Element?
