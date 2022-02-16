@@ -12,16 +12,8 @@ import CoreData
 public class PersistenceManager {
     
     static public var shared: PersistenceManager = PersistenceManager()
-    static private var _containerName = ""
-    static public var containerName: String {
-        get { _containerName }
-        set { _containerName = newValue }
-    }
-    static private var _entityName = ""
-    static public var entityName: String {
-        get { _entityName }
-        set { _entityName = newValue }
-    }
+    static var containerName: String = "PERSISTENCE_CONTAINER"
+    static var entityName: String = "PERSISTENCE_ENTITY"
         
     private var persistenceContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: PersistenceManager.containerName)
