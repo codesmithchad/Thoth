@@ -9,7 +9,7 @@ import Foundation
 
 extension Array {
 
-    subscript(safe range: Range<Index>) -> ArraySlice<Element> {
+    public subscript(safe range: Range<Index>) -> ArraySlice<Element> {
         return self[Swift.min(range.lowerBound, endIndex)..<Swift.min(range.upperBound, endIndex)]
     }
 
