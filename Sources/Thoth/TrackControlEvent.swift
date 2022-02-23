@@ -12,7 +12,7 @@ extension UIButton {
         super.sendAction(action, to: target, for: event)
         
         guard let identifier = accessibilityIdentifier else {
-            print("[Tracker] warn: UIButton의 accessibilityIdentifier가 지정되어 있지 않음")
+//            print("[Tracker] warn: UIButton의 accessibilityIdentifier가 지정되어 있지 않음")
             return
         }
         
